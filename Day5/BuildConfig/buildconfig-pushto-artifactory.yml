@@ -18,6 +18,6 @@ spec:
   output:
     to:
       kind: DockerImage
-      name: "tektutorjegan.jfrog.io/jegan-docker/hello-spring-microservice:2.0"
+      name: "tektutorjegan.jfrog.io/jegan-docker-docker/hello-spring-microservice:2.0"
     pushSecret:
       name: private-jfrog-image-registry-new

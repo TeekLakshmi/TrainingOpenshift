@@ -406,3 +406,51 @@ No services found.
 
 ## Lab - knative eventing
 
+Let's deploy a sink Service
+```
+oc new-project jegan
+kn service create eventinghello --concurrency-target=1 --image=quay.io/rhdevelopers/eventinghello:0.0.2
+```
+
+Expected output
+<pre>
+[root@tektutor.org eventing]# oc new-project jegan
+Already on project "jegan" on server "https://api.ocp4.tektutor.org.labs:6443".
+
+You can add applications to this project with the 'new-app' command. For example, try:
+
+    oc new-app rails-postgresql-example
+
+to build a new example application in Ruby. Or use kubectl to deploy a simple Kubernetes application:
+
+    kubectl create deployment hello-node --image=registry.k8s.io/e2e-test-images/agnhost:2.43 -- /agnhost serve-hostname
+
+[root@tektutor.org eventing]# kn service create eventinghello --concurrency-target=1 --image=quay.io/rhdevelopers/eventinghello:0.0.2
+Warning: Kubernetes default value is insecure, Knative may default this to secure in a future release: spec.template.spec.containers[0].securityContext.allowPrivilegeEscalation, spec.template.spec.containers[0].securityContext.capabilities, spec.template.spec.containers[0].securityContext.runAsNonRoot, spec.template.spec.containers[0].securityContext.seccompProfile
+Creating service 'eventinghello' in namespace 'jegan':
+
+  0.053s The Route is still working to reflect the latest desired specification.
+  0.085s ...
+  0.095s Configuration "eventinghello" is waiting for a Revision to become ready.
+ 41.216s ...
+ 41.269s Ingress has not yet been reconciled.
+ 41.365s Waiting for load balancer to be ready
+ 41.547s Ready to serve.
+
+Service 'eventinghello' created to latest revision 'eventinghello-00001' is available at URL:
+https://eventinghello-jegan.apps.ocp4.tektutor.org.labs	
+</pre>
+
+Create a event source application
+```
+kn source ping create eventinghello-ping-source --schedule "*/2 * * * *" --data '{"message": "Thanks for your message"}' --sink ksvc:eventinghello
+```
+
+# Post test link for Adv Containerization training ( complete this from RPS Cloud Lab Machine )
+https://app.mymapit.in/code4/tiny/XyfvWS
+
+
+# Feedback link
+https://survey.zohopublic.com/zs/YK05Cm
+
+ 
