@@ -1,0 +1,40 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: openshift-hello-ms
+  name: openshift-hello-ms
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: openshift-hello-ms
+  template:
+    metadata:
+      labels:
+        app: openshift-hello-ms
+    spec:
+      containers:
+      - image: tektutor/openshift-hello-ms:1.0
+        name: openshift-hello-ms
+        env:
+        - name: jdbc-url
+          valueFrom:
+            configMapKeyRef:
+              name: mariadb-config
+              key: jdbc-url
+        - name: jdbc-connection
+          valueFrom:
+            configMapKeyRef:
+              name: mariadb-config
+              key: jdbc-connection
+        - name: username
+          valueFrom:
+            secretKeyRef:
+              name: mariadb-login-credentials
+              key: username
+        - name: password 
+          valueFrom:
+            secretKeyRef:
+              name: mariadb-login-credentials
+              key: password 

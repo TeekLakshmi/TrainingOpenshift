@@ -1,2 +1,1 @@
-# TrainingOpenshift
-Training materials of Openshift
+# openshift-april-2024

@@ -1,0 +1,38 @@
+apiVersion: apps/v1 
+kind: Deployment
+metadata:
+  name: tektutor-nfs-provisioner
+  namespace: default
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: tektutor-nfs-provisioner
+  strategy:
+    type: Recreate
+  template:
+    metadata:
+      labels:
+        app: tektutor-nfs-provisioner
+    spec:
+      serviceAccountName: nfs-storageclass-sa
+      containers:
+        - name: tektutor-nfs-provisioner
+          image: quay.io/yonatankahana/nfs-subdir-external-provisioner:v4.0.3-rc1 
+          volumeMounts:
+            - name: nfs-storage
+              mountPath: /persistentvolumes
+          env:
+            - name: PROVISIONER_NAME 
+              value: tektutor-nfs-provisioner 
+
+            - name: NFS_SERVER 
+              value: 192.168.1.108
+
+            - name: NFS_PATH
+              value: /var/nfs/nfs-storage-class
+      volumes:
+       - name: nfs-storage
+         nfs:
+           server: 192.168.1.108 
+           path: /var/nfs/nfs-storage-class
