@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod 
+metadata:
+  name: hello-pod
+spec:
+   containers:
+   - name: job-container
+     image: busybox 
+     command: ["sh", "-c", "echo 'Hello Job Started' && sleep 20 && exit 0"]

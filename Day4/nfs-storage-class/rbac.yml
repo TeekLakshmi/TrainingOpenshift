@@ -1,0 +1,62 @@
+kind: ServiceAccount
+apiVersion: v1
+metadata:
+  namespace: default
+  name: nfs-storageclass-sa
+---
+kind: ClusterRole
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  namespace: default
+  name: nfs-storageclass-clusterrole
+rules:
+  - apiGroups: [""]
+    resources: ["persistentvolumes"]
+    verbs: ["get", "list", "watch", "create", "delete"]
+  - apiGroups: [""]
+    resources: ["persistentvolumeclaims"]
+    verbs: ["get", "list", "watch", "update"]
+  - apiGroups: ["storage.k8s.io"]
+    resources: ["storageclasses"]
+    verbs: ["get", "list", "watch"]
+  - apiGroups: [""]
+    resources: ["events"]
+    verbs: ["create", "update", "patch"]
+---
+kind: ClusterRoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  namespace: default
+  name: nfs-storageclass-rolebinding
+subjects:
+  - kind: ServiceAccount
+    name: nfs-storageclass-sa
+    namespace: default
+roleRef:
+  kind: ClusterRole
+  name: nfs-storageclass-clusterrole
+  apiGroup: rbac.authorization.k8s.io
+---
+kind: Role
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  namespace: default
+  name: nfs-storageclass-additionalroles
+rules:
+  - apiGroups: [""]
+    resources: ["endpoints"]
+    verbs: ["get", "list", "watch", "create", "update", "patch"]
+---
+kind: RoleBinding
+apiVersion: rbac.authorization.k8s.io/v1
+metadata:
+  namespace: default
+  name: nfs-storageclass-additionalroles
+subjects:
+  - kind: ServiceAccount
+    name: nfs-storageclass-sa # same as top of the file
+    namespace: default
+roleRef:
+  kind: Role
+  name: nfs-storageclass-additionalroles
+  apiGroup: rbac.authorization.k8s.io

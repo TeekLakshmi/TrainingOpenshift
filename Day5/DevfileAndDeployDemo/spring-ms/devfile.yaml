@@ -1,0 +1,50 @@
+schemaVersion: 2.2.0
+metadata:
+  name: tektutor-springboot-microservice 
+  version: 1.0.0
+  displayName: TekTutor Spring Boot Microservice  
+  description: A TekTutor sample Spring Boot Microservice 
+  tags:
+    - Java
+    - Spring
+    - Microservice
+    - OpenShift
+  projectType: springboot
+  language: Java
+components:
+  - name: image-build
+    image:
+      imageName: tektutor-spring-microservice:latest
+      dockerfile:
+        uri: Dockerfile
+        buildContext: .
+        rootRequired: false
+
+  - name: kubernetes-deploy
+    attributes:
+      deployment/replicas: 3
+      deployment/cpuRequest: 10m
+      deployment/memoryRequest: 180Mi
+      deployment/container-port: 8080
+    kubernetes:
+      uri: deploy.yaml
+      endpoints:
+        - name: http-8080
+          targetPort: 8080
+          path: /
+          secure: true
+commands:
+  - id: build-image
+    apply:
+      component: image-build
+  - id: deployk8s
+    apply:
+      component: kubernetes-deploy
+  - id: deploy
+    composite:
+      commands:
+        - build-image
+        - deployk8s
+      group:
+        kind: deploy
+        isDefault: true

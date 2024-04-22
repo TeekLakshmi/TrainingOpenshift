@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: hello-microservice
+  name: hello-microservice
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: hello-microservice
+  template:
+    metadata:
+      labels:
+        app: hello-microservice
+    spec:
+      containers:
+      - image: tektutorjegan.jfrog.io/jegan-docker/hello-microservice:1.0.0
+        name: hello-microservice
+      imagePullSecrets:
+        - name: private-jfrog-image-registry 

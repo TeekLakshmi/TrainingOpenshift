@@ -1,0 +1,3 @@
+spring:
+  application:
+    name: tektutor_hello_ms_

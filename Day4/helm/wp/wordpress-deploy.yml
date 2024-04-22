@@ -1,0 +1,81 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: wordpress
+  name: wordpress
+spec:
+  selector:
+    matchLabels:
+      app: wordpress
+  template:
+    metadata:
+      labels:
+        app: wordpress
+    spec:
+      volumes:
+      - name: wordpress-storage
+        persistentVolumeClaim:
+          claimName: wordpress-pvc-jegan # Replace 'jegan' with your name
+      containers:
+      - image: bitnami/wordpress:6.4.1
+        imagePullPolicy: IfNotPresent
+        name: wordpress
+
+        volumeMounts:
+        - name: wordpress-storage
+          mountPath: /bitnami/wordpress
+        env:
+        - name: MYSQL_CLIENT_DATABASE_HOST
+          valueFrom:  
+            configMapKeyRef:
+              name: wordpress-cm
+              key: service-name 
+
+        - name: MYSQL_CLIENT_DATABASE_ROOT_USER
+          valueFrom:
+            secretKeyRef:
+              name: mariadb-login-credentials
+              key: username 
+
+        - name: MYSQL_CLIENT_DATABASE_ROOT_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mariadb-login-credentials
+              key: password 
+
+        - name: MYSQL_CLIENT_DATABASE_NAME
+          valueFrom:  
+            configMapKeyRef:
+              name: wordpress-cm
+              key: database
+
+        - name: WORDPRESS_DATABASE_NAME
+          valueFrom:  
+            configMapKeyRef:
+              name: wordpress-cm
+              key: database
+
+        - name: WORDPRESS_DATABASE_HOST
+          valueFrom:  
+            configMapKeyRef:
+              name: wordpress-cm
+              key: service-name 
+
+        - name: WORDPRESS_DATABASE_PORT_NUMBER
+          valueFrom:  
+            configMapKeyRef:
+              name: wordpress-cm
+              key: mariadb-port 
+
+        - name: WORDPRESS_DATABASE_USER
+          valueFrom:
+            secretKeyRef:
+              name: mariadb-login-credentials
+              key: username 
+
+        - name: WORDPRESS_DATABASE_PASSWORD
+          valueFrom:
+            secretKeyRef:
+              name: mariadb-login-credentials
+              key: password 

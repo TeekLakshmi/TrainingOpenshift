@@ -1,0 +1,1079 @@
+2024/03/22 08:33:40 [go-init] No pre-start command defined, skip
+2024/03/22 08:33:40 [go-init] Main command launched : /usr/libexec/s2i/run
+Installed Jenkins Version: 2.401.1
+Installed Plugins and Versions: 
+/opt/openshift/plugins/ace-editor.jpi:1.1
+/opt/openshift/plugins/ant.jpi:487.vd79d090d4ea_e
+/opt/openshift/plugins/apache-httpcomponents-client-4-api.jpi:4.5.14-150.v7a_b_9d17134a_5
+/opt/openshift/plugins/authentication-tokens.jpi:1.53.v1c90fd9191a_b_
+/opt/openshift/plugins/blueocean-autofavorite.jpi:1.2.5
+/opt/openshift/plugins/blueocean-bitbucket-pipeline.jpi:1.27.4
+/opt/openshift/plugins/blueocean-commons.jpi:1.27.4
+/opt/openshift/plugins/blueocean-config.jpi:1.27.4
+/opt/openshift/plugins/blueocean-core-js.jpi:1.27.4
+/opt/openshift/plugins/blueocean-dashboard.jpi:1.27.4
+/opt/openshift/plugins/blueocean-display-url.jpi:2.4.2
+/opt/openshift/plugins/blueocean-events.jpi:1.27.4
+/opt/openshift/plugins/blueocean-github-pipeline.jpi:1.27.4
+/opt/openshift/plugins/blueocean-git-pipeline.jpi:1.27.4
+/opt/openshift/plugins/blueocean-i18n.jpi:1.27.4
+/opt/openshift/plugins/blueocean.jpi:1.27.4
+/opt/openshift/plugins/blueocean-jwt.jpi:1.27.4
+/opt/openshift/plugins/blueocean-personalization.jpi:1.27.4
+/opt/openshift/plugins/blueocean-pipeline-api-impl.jpi:1.27.4
+/opt/openshift/plugins/blueocean-pipeline-editor.jpi:1.27.4
+/opt/openshift/plugins/blueocean-pipeline-scm-api.jpi:1.27.4
+/opt/openshift/plugins/blueocean-rest-impl.jpi:1.27.4
+/opt/openshift/plugins/blueocean-rest.jpi:1.27.4
+/opt/openshift/plugins/blueocean-web.jpi:1.27.4
+/opt/openshift/plugins/bootstrap5-api.jpi:5.3.0-1
+/opt/openshift/plugins/bouncycastle-api.jpi:2.28
+/opt/openshift/plugins/branch-api.jpi:2.1105.v472604208c55
+/opt/openshift/plugins/caffeine-api.jpi:3.1.6-115.vb_8b_b_328e59d8
+/opt/openshift/plugins/checks-api.jpi:2.0.0
+/opt/openshift/plugins/cloudbees-bitbucket-branch-source.jpi:805.v7f97d29dc0f5
+/opt/openshift/plugins/cloudbees-folder.jpi:6.815.v0dd5a_cb_40e0e
+/opt/openshift/plugins/command-launcher.jpi:100.v2f6722292ee8
+/opt/openshift/plugins/commons-lang3-api.jpi:3.12.0-36.vd97de6465d5b_
+/opt/openshift/plugins/commons-text-api.jpi:1.10.0-36.vc008c8fcda_7b_
+/opt/openshift/plugins/conditional-buildstep.jpi:1.4.2
+/opt/openshift/plugins/config-file-provider.jpi:938.ve2b_8a_591c596
+/opt/openshift/plugins/configuration-as-code-groovy.jpi:1.1
+/opt/openshift/plugins/configuration-as-code.jpi:1647.ve39ca_b_829b_42
+/opt/openshift/plugins/credentials-binding.jpi:604.vb_64480b_c56ca_
+/opt/openshift/plugins/credentials.jpi:1254.vb_96f366e7b_a_d
+/opt/openshift/plugins/data-tables-api.jpi:1.13.4-1
+/opt/openshift/plugins/display-url-api.jpi:2.3.7
+/opt/openshift/plugins/docker-commons.jpi:419.v8e3cd84ef49c
+/opt/openshift/plugins/durable-task.jpi:507.v050055d0cb_dd
+/opt/openshift/plugins/echarts-api.jpi:5.4.0-5
+/opt/openshift/plugins/email-ext.jpi:2.97
+/opt/openshift/plugins/favorite.jpi:2.4.2
+/opt/openshift/plugins/font-awesome-api.jpi:6.4.0-1
+/opt/openshift/plugins/git-client.jpi:4.3.0
+/opt/openshift/plugins/github-api.jpi:1.314-431.v78d72a_3fe4c3
+/opt/openshift/plugins/github-branch-source.jpi:1725.vd391eef681a_e
+/opt/openshift/plugins/github.jpi:1.37.1
+/opt/openshift/plugins/git.jpi:5.0.2
+/opt/openshift/plugins/git-server.jpi:99.va_0826a_b_cdfa_d
+/opt/openshift/plugins/google-oauth-plugin.jpi:1.0.8
+/opt/openshift/plugins/groovy.jpi:453.vcdb_a_c5c99890
+/opt/openshift/plugins/handy-uri-templates-2-api.jpi:2.1.8-22.v77d5b_75e6953
+/opt/openshift/plugins/htmlpublisher.jpi:1.31
+/opt/openshift/plugins/instance-identity.jpi:142.v04572ca_5b_265
+/opt/openshift/plugins/ionicons-api.jpi:56.v1b_1c8c49374e
+/opt/openshift/plugins/jackson2-api.jpi:2.15.2-350.v0c2f3f8fc595
+/opt/openshift/plugins/jakarta-activation-api.jpi:2.0.1-3
+/opt/openshift/plugins/jakarta-mail-api.jpi:2.0.1-3
+/opt/openshift/plugins/javadoc.jpi:233.vdc1a_ec702cff
+/opt/openshift/plugins/javax-activation-api.jpi:1.2.0-6
+/opt/openshift/plugins/javax-mail-api.jpi:1.6.2-9
+/opt/openshift/plugins/jaxb.jpi:2.3.8-1
+/opt/openshift/plugins/jdk-tool.jpi:66.vd8fa_64ee91b_d
+/opt/openshift/plugins/jenkins-design-language.jpi:1.27.4
+/opt/openshift/plugins/jersey2-api.jpi:2.39.1-2
+/opt/openshift/plugins/jira.jpi:3.10
+/opt/openshift/plugins/jjwt-api.jpi:0.11.5-77.v646c772fddb_0
+/opt/openshift/plugins/job-dsl.jpi:1.84
+/opt/openshift/plugins/jquery3-api.jpi:3.7.0-1
+/opt/openshift/plugins/jsch.jpi:0.2.8-65.v052c39de79b_2
+/opt/openshift/plugins/junit.jpi:1207.va_09d5100410f
+/opt/openshift/plugins/kubernetes-client-api.jpi:6.4.1-215.v2ed17097a_8e9
+/opt/openshift/plugins/kubernetes-credentials.jpi:0.10.0
+/opt/openshift/plugins/kubernetes.jpi:3937.vd7b_82db_e347b_
+/opt/openshift/plugins/lockable-resources.jpi:1156.v5e9f897ece02
+/opt/openshift/plugins/mailer.jpi:457.v3f72cb_e015e5
+/opt/openshift/plugins/mapdb-api.jpi:1.0.9-28.vf251ce40855d
+/opt/openshift/plugins/matrix-auth.jpi:3.1.8
+/opt/openshift/plugins/matrix-project.jpi:789.v57a_725b_63c79
+/opt/openshift/plugins/maven-plugin.jpi:3.22
+/opt/openshift/plugins/mercurial.jpi:1260.vdfb_723cdcc81
+/opt/openshift/plugins/metrics.jpi:4.2.18-438.v0ede325a_4c68
+/opt/openshift/plugins/mina-sshd-api-common.jpi:2.10.0-69.v28e3e36d18eb_
+/opt/openshift/plugins/mina-sshd-api-core.jpi:2.10.0-69.v28e3e36d18eb_
+/opt/openshift/plugins/momentjs.jpi:1.1.1
+/opt/openshift/plugins/oauth-credentials.jpi:0.645.ve666a_c332668
+/opt/openshift/plugins/okhttp-api.jpi:4.11.0-145.vcb_8de402ef81
+/opt/openshift/plugins/openshift-client.jpi:1.1.0.413.v3023d27e8434
+/opt/openshift/plugins/openshift-login.jpi:1.1.0.227.v27e08dfb_1a_20
+/opt/openshift/plugins/openshift-sync.jpi:1.1.0.790.v2051fca_5ed8d
+/opt/openshift/plugins/pam-auth.jpi:1.10
+/opt/openshift/plugins/parameterized-trigger.jpi:2.45
+/opt/openshift/plugins/pipeline-build-step.jpi:491.v1fec530da_858
+/opt/openshift/plugins/pipeline-graph-analysis.jpi:202.va_d268e64deb_3
+/opt/openshift/plugins/pipeline-groovy-lib.jpi:656.va_a_ceeb_6ffb_f7
+/opt/openshift/plugins/pipeline-input-step.jpi:468.va_5db_051498a_4
+/opt/openshift/plugins/pipeline-milestone-step.jpi:111.v449306f708b_7
+/opt/openshift/plugins/pipeline-model-api.jpi:2.2133.ve46a_6113dfc3
+/opt/openshift/plugins/pipeline-model-definition.jpi:2.2133.ve46a_6113dfc3
+/opt/openshift/plugins/pipeline-model-extensions.jpi:2.2133.ve46a_6113dfc3
+/opt/openshift/plugins/pipeline-rest-api.jpi:2.32
+/opt/openshift/plugins/pipeline-stage-step.jpi:305.ve96d0205c1c6
+/opt/openshift/plugins/pipeline-stage-tags-metadata.jpi:2.2133.ve46a_6113dfc3
+/opt/openshift/plugins/pipeline-stage-view.jpi:2.32
+/opt/openshift/plugins/pipeline-utility-steps.jpi:2.15.4
+/opt/openshift/plugins/plain-credentials.jpi:143.v1b_df8b_d3b_e48
+/opt/openshift/plugins/plugin-util-api.jpi:3.3.0
+/opt/openshift/plugins/prometheus.jpi:2.2.3
+/opt/openshift/plugins/pubsub-light.jpi:1.17
+/opt/openshift/plugins/run-condition.jpi:1.5
+/opt/openshift/plugins/scm-api.jpi:672.v64378a_b_20c60
+/opt/openshift/plugins/script-security.jpi:1251.vfe552ed55f8d
+/opt/openshift/plugins/snakeyaml-api.jpi:1.33-95.va_b_a_e3e47b_fa_4
+/opt/openshift/plugins/sse-gateway.jpi:1.26
+/opt/openshift/plugins/ssh-credentials.jpi:305.v8f4381501156
+/opt/openshift/plugins/sshd.jpi:3.303.vefc7119b_ec23
+/opt/openshift/plugins/structs.jpi:324.va_f5d6774f3a_d
+/opt/openshift/plugins/subversion.jpi:2.17.2
+/opt/openshift/plugins/token-macro.jpi:359.vb_cde11682e0c
+/opt/openshift/plugins/trilead-api.jpi:2.84.v72119de229b_7
+/opt/openshift/plugins/variant.jpi:59.vf075fe829ccb
+/opt/openshift/plugins/workflow-api.jpi:1213.v646def1087f9
+/opt/openshift/plugins/workflow-basic-steps.jpi:1017.vb_45b_302f0cea_
+/opt/openshift/plugins/workflow-cps-global-lib.jpi:609.vd95673f149b_b
+/opt/openshift/plugins/workflow-cps.jpi:3673.v5b_dd74276262
+/opt/openshift/plugins/workflow-durable-task-step.jpi:1247.v7f9dfea_b_4fd0
+/opt/openshift/plugins/workflow-job.jpi:1308.v58d48a_763b_31
+/opt/openshift/plugins/workflow-multibranch.jpi:746.v05814d19c001
+/opt/openshift/plugins/workflow-scm-step.jpi:408.v7d5b_135a_b_d49
+/opt/openshift/plugins/workflow-step-api.jpi:639.v6eca_cd8c04a_a_
+/opt/openshift/plugins/workflow-support.jpi:839.v35e2736cfd5c
+
+
+
+CONTAINER_MEMORY_IN_MB='1024', using /usr/lib/jvm/java-11-openjdk/bin/java and /usr/lib/jvm/java-11-openjdk/bin/javac
+Linking /usr/lib/jenkins/ace-editor.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/ant.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/apache-httpcomponents-client-4-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/authentication-tokens.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-autofavorite.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-bitbucket-pipeline.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-commons.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-config.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-core-js.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-dashboard.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-display-url.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-events.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-github-pipeline.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-git-pipeline.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-i18n.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-jwt.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-personalization.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-pipeline-api-impl.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-pipeline-editor.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-pipeline-scm-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-rest.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-rest-impl.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/blueocean-web.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/bootstrap5-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/bouncycastle-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/branch-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/caffeine-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/checks-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/cloudbees-bitbucket-branch-source.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/cloudbees-folder.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/command-launcher.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/commons-lang3-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/commons-text-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/conditional-buildstep.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/config-file-provider.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/configuration-as-code-groovy.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/configuration-as-code.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/credentials-binding.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/credentials.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/data-tables-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/display-url-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/docker-commons.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/durable-task.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/echarts-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/email-ext.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/favorite.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/font-awesome-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/git-client.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/git.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/github-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/github-branch-source.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/github.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/git-server.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/google-oauth-plugin.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/groovy.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/handy-uri-templates-2-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/htmlpublisher.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/instance-identity.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/ionicons-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jackson2-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jakarta-activation-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jakarta-mail-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/javadoc.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/javax-activation-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/javax-mail-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jaxb.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jdk-tool.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jenkins-design-language.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jersey2-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jira.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jjwt-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/job-dsl.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jquery3-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/jsch.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/junit.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/kubernetes-client-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/kubernetes-credentials.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/kubernetes.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/lockable-resources.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/mailer.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/mapdb-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/matrix-auth.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/matrix-project.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/maven-plugin.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/mercurial.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/metrics.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/mina-sshd-api-common.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/mina-sshd-api-core.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/momentjs.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/oauth-credentials.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/okhttp-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/openshift-client.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/openshift-login.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/openshift-sync.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pam-auth.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/parameterized-trigger.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-build-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-graph-analysis.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-groovy-lib.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-input-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-milestone-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-model-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-model-definition.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-model-extensions.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-rest-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-stage-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-stage-tags-metadata.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-stage-view.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pipeline-utility-steps.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/plain-credentials.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/plugin-util-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/prometheus.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/pubsub-light.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/run-condition.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/scm-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/script-security.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/snakeyaml-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/sse-gateway.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/ssh-credentials.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/sshd.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/structs.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/subversion.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/token-macro.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/trilead-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/variant.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-basic-steps.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-cps-global-lib.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-cps.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-durable-task-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-job.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-multibranch.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-scm-step.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-step-api.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Linking /usr/lib/jenkins/workflow-support.hpi RPM installed Jenkins plugins to /var/lib/jenkins ...
+Cleaning up links to base image plugins in /opt/openshift/plugins as part of this initial image start
+Looking at /opt/openshift/plugins/ace-editor.jpi and /usr/lib/jenkins/ace-editor.hpi
+/opt/openshift/plugins/ace-editor.jpi cksum 3703760971 and /usr/lib/jenkins/ace-editor.hpi cksum 3703760971
+Removing /opt/openshift/plugins/ace-editor.jpi
+Looking at /opt/openshift/plugins/ant.jpi and /usr/lib/jenkins/ant.hpi
+/opt/openshift/plugins/ant.jpi cksum 2418981804 and /usr/lib/jenkins/ant.hpi cksum 2418981804
+Removing /opt/openshift/plugins/ant.jpi
+Looking at /opt/openshift/plugins/apache-httpcomponents-client-4-api.jpi and /usr/lib/jenkins/apache-httpcomponents-client-4-api.hpi
+/opt/openshift/plugins/apache-httpcomponents-client-4-api.jpi cksum 3951995204 and /usr/lib/jenkins/apache-httpcomponents-client-4-api.hpi cksum 3951995204
+Removing /opt/openshift/plugins/apache-httpcomponents-client-4-api.jpi
+Looking at /opt/openshift/plugins/authentication-tokens.jpi and /usr/lib/jenkins/authentication-tokens.hpi
+/opt/openshift/plugins/authentication-tokens.jpi cksum 1970537121 and /usr/lib/jenkins/authentication-tokens.hpi cksum 1970537121
+Removing /opt/openshift/plugins/authentication-tokens.jpi
+Looking at /opt/openshift/plugins/blueocean-autofavorite.jpi and /usr/lib/jenkins/blueocean-autofavorite.hpi
+/opt/openshift/plugins/blueocean-autofavorite.jpi cksum 1314200674 and /usr/lib/jenkins/blueocean-autofavorite.hpi cksum 1314200674
+Removing /opt/openshift/plugins/blueocean-autofavorite.jpi
+Looking at /opt/openshift/plugins/blueocean-bitbucket-pipeline.jpi and /usr/lib/jenkins/blueocean-bitbucket-pipeline.hpi
+/opt/openshift/plugins/blueocean-bitbucket-pipeline.jpi cksum 87284037 and /usr/lib/jenkins/blueocean-bitbucket-pipeline.hpi cksum 87284037
+Removing /opt/openshift/plugins/blueocean-bitbucket-pipeline.jpi
+Looking at /opt/openshift/plugins/blueocean-commons.jpi and /usr/lib/jenkins/blueocean-commons.hpi
+/opt/openshift/plugins/blueocean-commons.jpi cksum 3664657876 and /usr/lib/jenkins/blueocean-commons.hpi cksum 3664657876
+Removing /opt/openshift/plugins/blueocean-commons.jpi
+Looking at /opt/openshift/plugins/blueocean-config.jpi and /usr/lib/jenkins/blueocean-config.hpi
+/opt/openshift/plugins/blueocean-config.jpi cksum 1515732687 and /usr/lib/jenkins/blueocean-config.hpi cksum 1515732687
+Removing /opt/openshift/plugins/blueocean-config.jpi
+Looking at /opt/openshift/plugins/blueocean-core-js.jpi and /usr/lib/jenkins/blueocean-core-js.hpi
+/opt/openshift/plugins/blueocean-core-js.jpi cksum 3246710454 and /usr/lib/jenkins/blueocean-core-js.hpi cksum 3246710454
+Removing /opt/openshift/plugins/blueocean-core-js.jpi
+Looking at /opt/openshift/plugins/blueocean-dashboard.jpi and /usr/lib/jenkins/blueocean-dashboard.hpi
+/opt/openshift/plugins/blueocean-dashboard.jpi cksum 1712144983 and /usr/lib/jenkins/blueocean-dashboard.hpi cksum 1712144983
+Removing /opt/openshift/plugins/blueocean-dashboard.jpi
+Looking at /opt/openshift/plugins/blueocean-display-url.jpi and /usr/lib/jenkins/blueocean-display-url.hpi
+/opt/openshift/plugins/blueocean-display-url.jpi cksum 130331811 and /usr/lib/jenkins/blueocean-display-url.hpi cksum 130331811
+Removing /opt/openshift/plugins/blueocean-display-url.jpi
+Looking at /opt/openshift/plugins/blueocean-events.jpi and /usr/lib/jenkins/blueocean-events.hpi
+/opt/openshift/plugins/blueocean-events.jpi cksum 2260079471 and /usr/lib/jenkins/blueocean-events.hpi cksum 2260079471
+Removing /opt/openshift/plugins/blueocean-events.jpi
+Looking at /opt/openshift/plugins/blueocean-github-pipeline.jpi and /usr/lib/jenkins/blueocean-github-pipeline.hpi
+/opt/openshift/plugins/blueocean-github-pipeline.jpi cksum 1523424624 and /usr/lib/jenkins/blueocean-github-pipeline.hpi cksum 1523424624
+Removing /opt/openshift/plugins/blueocean-github-pipeline.jpi
+Looking at /opt/openshift/plugins/blueocean-git-pipeline.jpi and /usr/lib/jenkins/blueocean-git-pipeline.hpi
+/opt/openshift/plugins/blueocean-git-pipeline.jpi cksum 4100495102 and /usr/lib/jenkins/blueocean-git-pipeline.hpi cksum 4100495102
+Removing /opt/openshift/plugins/blueocean-git-pipeline.jpi
+Looking at /opt/openshift/plugins/blueocean-i18n.jpi and /usr/lib/jenkins/blueocean-i18n.hpi
+/opt/openshift/plugins/blueocean-i18n.jpi cksum 2289417636 and /usr/lib/jenkins/blueocean-i18n.hpi cksum 2289417636
+Removing /opt/openshift/plugins/blueocean-i18n.jpi
+Looking at /opt/openshift/plugins/blueocean.jpi and /usr/lib/jenkins/blueocean.hpi
+/opt/openshift/plugins/blueocean.jpi cksum 945953488 and /usr/lib/jenkins/blueocean.hpi cksum 945953488
+Removing /opt/openshift/plugins/blueocean.jpi
+Looking at /opt/openshift/plugins/blueocean-jwt.jpi and /usr/lib/jenkins/blueocean-jwt.hpi
+/opt/openshift/plugins/blueocean-jwt.jpi cksum 1564778350 and /usr/lib/jenkins/blueocean-jwt.hpi cksum 1564778350
+Removing /opt/openshift/plugins/blueocean-jwt.jpi
+Looking at /opt/openshift/plugins/blueocean-personalization.jpi and /usr/lib/jenkins/blueocean-personalization.hpi
+/opt/openshift/plugins/blueocean-personalization.jpi cksum 3903897918 and /usr/lib/jenkins/blueocean-personalization.hpi cksum 3903897918
+Removing /opt/openshift/plugins/blueocean-personalization.jpi
+Looking at /opt/openshift/plugins/blueocean-pipeline-api-impl.jpi and /usr/lib/jenkins/blueocean-pipeline-api-impl.hpi
+/opt/openshift/plugins/blueocean-pipeline-api-impl.jpi cksum 1265780221 and /usr/lib/jenkins/blueocean-pipeline-api-impl.hpi cksum 1265780221
+Removing /opt/openshift/plugins/blueocean-pipeline-api-impl.jpi
+Looking at /opt/openshift/plugins/blueocean-pipeline-editor.jpi and /usr/lib/jenkins/blueocean-pipeline-editor.hpi
+/opt/openshift/plugins/blueocean-pipeline-editor.jpi cksum 4043103098 and /usr/lib/jenkins/blueocean-pipeline-editor.hpi cksum 4043103098
+Removing /opt/openshift/plugins/blueocean-pipeline-editor.jpi
+Looking at /opt/openshift/plugins/blueocean-pipeline-scm-api.jpi and /usr/lib/jenkins/blueocean-pipeline-scm-api.hpi
+/opt/openshift/plugins/blueocean-pipeline-scm-api.jpi cksum 1629588475 and /usr/lib/jenkins/blueocean-pipeline-scm-api.hpi cksum 1629588475
+Removing /opt/openshift/plugins/blueocean-pipeline-scm-api.jpi
+Looking at /opt/openshift/plugins/blueocean-rest-impl.jpi and /usr/lib/jenkins/blueocean-rest-impl.hpi
+/opt/openshift/plugins/blueocean-rest-impl.jpi cksum 3810938851 and /usr/lib/jenkins/blueocean-rest-impl.hpi cksum 3810938851
+Removing /opt/openshift/plugins/blueocean-rest-impl.jpi
+Looking at /opt/openshift/plugins/blueocean-rest.jpi and /usr/lib/jenkins/blueocean-rest.hpi
+/opt/openshift/plugins/blueocean-rest.jpi cksum 897835056 and /usr/lib/jenkins/blueocean-rest.hpi cksum 897835056
+Removing /opt/openshift/plugins/blueocean-rest.jpi
+Looking at /opt/openshift/plugins/blueocean-web.jpi and /usr/lib/jenkins/blueocean-web.hpi
+/opt/openshift/plugins/blueocean-web.jpi cksum 282974468 and /usr/lib/jenkins/blueocean-web.hpi cksum 282974468
+Removing /opt/openshift/plugins/blueocean-web.jpi
+Looking at /opt/openshift/plugins/bootstrap5-api.jpi and /usr/lib/jenkins/bootstrap5-api.hpi
+/opt/openshift/plugins/bootstrap5-api.jpi cksum 460081322 and /usr/lib/jenkins/bootstrap5-api.hpi cksum 460081322
+Removing /opt/openshift/plugins/bootstrap5-api.jpi
+Looking at /opt/openshift/plugins/bouncycastle-api.jpi and /usr/lib/jenkins/bouncycastle-api.hpi
+/opt/openshift/plugins/bouncycastle-api.jpi cksum 934623707 and /usr/lib/jenkins/bouncycastle-api.hpi cksum 934623707
+Removing /opt/openshift/plugins/bouncycastle-api.jpi
+Looking at /opt/openshift/plugins/branch-api.jpi and /usr/lib/jenkins/branch-api.hpi
+/opt/openshift/plugins/branch-api.jpi cksum 4172850597 and /usr/lib/jenkins/branch-api.hpi cksum 4172850597
+Removing /opt/openshift/plugins/branch-api.jpi
+Looking at /opt/openshift/plugins/caffeine-api.jpi and /usr/lib/jenkins/caffeine-api.hpi
+/opt/openshift/plugins/caffeine-api.jpi cksum 2958769159 and /usr/lib/jenkins/caffeine-api.hpi cksum 2958769159
+Removing /opt/openshift/plugins/caffeine-api.jpi
+Looking at /opt/openshift/plugins/checks-api.jpi and /usr/lib/jenkins/checks-api.hpi
+/opt/openshift/plugins/checks-api.jpi cksum 1902969423 and /usr/lib/jenkins/checks-api.hpi cksum 1902969423
+Removing /opt/openshift/plugins/checks-api.jpi
+Looking at /opt/openshift/plugins/cloudbees-bitbucket-branch-source.jpi and /usr/lib/jenkins/cloudbees-bitbucket-branch-source.hpi
+/opt/openshift/plugins/cloudbees-bitbucket-branch-source.jpi cksum 1985594656 and /usr/lib/jenkins/cloudbees-bitbucket-branch-source.hpi cksum 1985594656
+Removing /opt/openshift/plugins/cloudbees-bitbucket-branch-source.jpi
+Looking at /opt/openshift/plugins/cloudbees-folder.jpi and /usr/lib/jenkins/cloudbees-folder.hpi
+/opt/openshift/plugins/cloudbees-folder.jpi cksum 3480877346 and /usr/lib/jenkins/cloudbees-folder.hpi cksum 3480877346
+Removing /opt/openshift/plugins/cloudbees-folder.jpi
+Looking at /opt/openshift/plugins/command-launcher.jpi and /usr/lib/jenkins/command-launcher.hpi
+/opt/openshift/plugins/command-launcher.jpi cksum 2022425981 and /usr/lib/jenkins/command-launcher.hpi cksum 2022425981
+Removing /opt/openshift/plugins/command-launcher.jpi
+Looking at /opt/openshift/plugins/commons-lang3-api.jpi and /usr/lib/jenkins/commons-lang3-api.hpi
+/opt/openshift/plugins/commons-lang3-api.jpi cksum 363084363 and /usr/lib/jenkins/commons-lang3-api.hpi cksum 363084363
+Removing /opt/openshift/plugins/commons-lang3-api.jpi
+Looking at /opt/openshift/plugins/commons-text-api.jpi and /usr/lib/jenkins/commons-text-api.hpi
+/opt/openshift/plugins/commons-text-api.jpi cksum 2901512760 and /usr/lib/jenkins/commons-text-api.hpi cksum 2901512760
+Removing /opt/openshift/plugins/commons-text-api.jpi
+Looking at /opt/openshift/plugins/conditional-buildstep.jpi and /usr/lib/jenkins/conditional-buildstep.hpi
+/opt/openshift/plugins/conditional-buildstep.jpi cksum 2439717304 and /usr/lib/jenkins/conditional-buildstep.hpi cksum 2439717304
+Removing /opt/openshift/plugins/conditional-buildstep.jpi
+Looking at /opt/openshift/plugins/config-file-provider.jpi and /usr/lib/jenkins/config-file-provider.hpi
+/opt/openshift/plugins/config-file-provider.jpi cksum 1445874827 and /usr/lib/jenkins/config-file-provider.hpi cksum 1445874827
+Removing /opt/openshift/plugins/config-file-provider.jpi
+Looking at /opt/openshift/plugins/configuration-as-code-groovy.jpi and /usr/lib/jenkins/configuration-as-code-groovy.hpi
+/opt/openshift/plugins/configuration-as-code-groovy.jpi cksum 2108322748 and /usr/lib/jenkins/configuration-as-code-groovy.hpi cksum 2108322748
+Removing /opt/openshift/plugins/configuration-as-code-groovy.jpi
+Looking at /opt/openshift/plugins/configuration-as-code.jpi and /usr/lib/jenkins/configuration-as-code.hpi
+/opt/openshift/plugins/configuration-as-code.jpi cksum 1624662612 and /usr/lib/jenkins/configuration-as-code.hpi cksum 1624662612
+Removing /opt/openshift/plugins/configuration-as-code.jpi
+Looking at /opt/openshift/plugins/credentials-binding.jpi and /usr/lib/jenkins/credentials-binding.hpi
+/opt/openshift/plugins/credentials-binding.jpi cksum 3014898245 and /usr/lib/jenkins/credentials-binding.hpi cksum 3014898245
+Removing /opt/openshift/plugins/credentials-binding.jpi
+Looking at /opt/openshift/plugins/credentials.jpi and /usr/lib/jenkins/credentials.hpi
+/opt/openshift/plugins/credentials.jpi cksum 1427549444 and /usr/lib/jenkins/credentials.hpi cksum 1427549444
+Removing /opt/openshift/plugins/credentials.jpi
+Looking at /opt/openshift/plugins/data-tables-api.jpi and /usr/lib/jenkins/data-tables-api.hpi
+/opt/openshift/plugins/data-tables-api.jpi cksum 2821403082 and /usr/lib/jenkins/data-tables-api.hpi cksum 2821403082
+Removing /opt/openshift/plugins/data-tables-api.jpi
+Looking at /opt/openshift/plugins/display-url-api.jpi and /usr/lib/jenkins/display-url-api.hpi
+/opt/openshift/plugins/display-url-api.jpi cksum 4046305508 and /usr/lib/jenkins/display-url-api.hpi cksum 4046305508
+Removing /opt/openshift/plugins/display-url-api.jpi
+Looking at /opt/openshift/plugins/docker-commons.jpi and /usr/lib/jenkins/docker-commons.hpi
+/opt/openshift/plugins/docker-commons.jpi cksum 2236301241 and /usr/lib/jenkins/docker-commons.hpi cksum 2236301241
+Removing /opt/openshift/plugins/docker-commons.jpi
+Looking at /opt/openshift/plugins/durable-task.jpi and /usr/lib/jenkins/durable-task.hpi
+/opt/openshift/plugins/durable-task.jpi cksum 1489306322 and /usr/lib/jenkins/durable-task.hpi cksum 1489306322
+Removing /opt/openshift/plugins/durable-task.jpi
+Looking at /opt/openshift/plugins/echarts-api.jpi and /usr/lib/jenkins/echarts-api.hpi
+/opt/openshift/plugins/echarts-api.jpi cksum 2152506899 and /usr/lib/jenkins/echarts-api.hpi cksum 2152506899
+Removing /opt/openshift/plugins/echarts-api.jpi
+Looking at /opt/openshift/plugins/email-ext.jpi and /usr/lib/jenkins/email-ext.hpi
+/opt/openshift/plugins/email-ext.jpi cksum 2604373294 and /usr/lib/jenkins/email-ext.hpi cksum 2604373294
+Removing /opt/openshift/plugins/email-ext.jpi
+Looking at /opt/openshift/plugins/favorite.jpi and /usr/lib/jenkins/favorite.hpi
+/opt/openshift/plugins/favorite.jpi cksum 2031853378 and /usr/lib/jenkins/favorite.hpi cksum 2031853378
+Removing /opt/openshift/plugins/favorite.jpi
+Looking at /opt/openshift/plugins/font-awesome-api.jpi and /usr/lib/jenkins/font-awesome-api.hpi
+/opt/openshift/plugins/font-awesome-api.jpi cksum 3596241217 and /usr/lib/jenkins/font-awesome-api.hpi cksum 3596241217
+Removing /opt/openshift/plugins/font-awesome-api.jpi
+Looking at /opt/openshift/plugins/git-client.jpi and /usr/lib/jenkins/git-client.hpi
+/opt/openshift/plugins/git-client.jpi cksum 2027192196 and /usr/lib/jenkins/git-client.hpi cksum 2027192196
+Removing /opt/openshift/plugins/git-client.jpi
+Looking at /opt/openshift/plugins/github-api.jpi and /usr/lib/jenkins/github-api.hpi
+/opt/openshift/plugins/github-api.jpi cksum 1583785527 and /usr/lib/jenkins/github-api.hpi cksum 1583785527
+Removing /opt/openshift/plugins/github-api.jpi
+Looking at /opt/openshift/plugins/github-branch-source.jpi and /usr/lib/jenkins/github-branch-source.hpi
+/opt/openshift/plugins/github-branch-source.jpi cksum 3549579743 and /usr/lib/jenkins/github-branch-source.hpi cksum 3549579743
+Removing /opt/openshift/plugins/github-branch-source.jpi
+Looking at /opt/openshift/plugins/github.jpi and /usr/lib/jenkins/github.hpi
+/opt/openshift/plugins/github.jpi cksum 262688108 and /usr/lib/jenkins/github.hpi cksum 262688108
+Removing /opt/openshift/plugins/github.jpi
+Looking at /opt/openshift/plugins/git.jpi and /usr/lib/jenkins/git.hpi
+/opt/openshift/plugins/git.jpi cksum 2856933936 and /usr/lib/jenkins/git.hpi cksum 2856933936
+Removing /opt/openshift/plugins/git.jpi
+Looking at /opt/openshift/plugins/git-server.jpi and /usr/lib/jenkins/git-server.hpi
+/opt/openshift/plugins/git-server.jpi cksum 999328145 and /usr/lib/jenkins/git-server.hpi cksum 999328145
+Removing /opt/openshift/plugins/git-server.jpi
+Looking at /opt/openshift/plugins/google-oauth-plugin.jpi and /usr/lib/jenkins/google-oauth-plugin.hpi
+/opt/openshift/plugins/google-oauth-plugin.jpi cksum 2741548601 and /usr/lib/jenkins/google-oauth-plugin.hpi cksum 2741548601
+Removing /opt/openshift/plugins/google-oauth-plugin.jpi
+Looking at /opt/openshift/plugins/groovy.jpi and /usr/lib/jenkins/groovy.hpi
+/opt/openshift/plugins/groovy.jpi cksum 3082517213 and /usr/lib/jenkins/groovy.hpi cksum 3082517213
+Removing /opt/openshift/plugins/groovy.jpi
+Looking at /opt/openshift/plugins/handy-uri-templates-2-api.jpi and /usr/lib/jenkins/handy-uri-templates-2-api.hpi
+/opt/openshift/plugins/handy-uri-templates-2-api.jpi cksum 2600470130 and /usr/lib/jenkins/handy-uri-templates-2-api.hpi cksum 2600470130
+Removing /opt/openshift/plugins/handy-uri-templates-2-api.jpi
+Looking at /opt/openshift/plugins/htmlpublisher.jpi and /usr/lib/jenkins/htmlpublisher.hpi
+/opt/openshift/plugins/htmlpublisher.jpi cksum 943224634 and /usr/lib/jenkins/htmlpublisher.hpi cksum 943224634
+Removing /opt/openshift/plugins/htmlpublisher.jpi
+Looking at /opt/openshift/plugins/instance-identity.jpi and /usr/lib/jenkins/instance-identity.hpi
+/opt/openshift/plugins/instance-identity.jpi cksum 1643737577 and /usr/lib/jenkins/instance-identity.hpi cksum 1643737577
+Removing /opt/openshift/plugins/instance-identity.jpi
+Looking at /opt/openshift/plugins/ionicons-api.jpi and /usr/lib/jenkins/ionicons-api.hpi
+/opt/openshift/plugins/ionicons-api.jpi cksum 943897625 and /usr/lib/jenkins/ionicons-api.hpi cksum 943897625
+Removing /opt/openshift/plugins/ionicons-api.jpi
+Looking at /opt/openshift/plugins/jackson2-api.jpi and /usr/lib/jenkins/jackson2-api.hpi
+/opt/openshift/plugins/jackson2-api.jpi cksum 2834484049 and /usr/lib/jenkins/jackson2-api.hpi cksum 2834484049
+Removing /opt/openshift/plugins/jackson2-api.jpi
+Looking at /opt/openshift/plugins/jakarta-activation-api.jpi and /usr/lib/jenkins/jakarta-activation-api.hpi
+/opt/openshift/plugins/jakarta-activation-api.jpi cksum 1463671740 and /usr/lib/jenkins/jakarta-activation-api.hpi cksum 1463671740
+Removing /opt/openshift/plugins/jakarta-activation-api.jpi
+Looking at /opt/openshift/plugins/jakarta-mail-api.jpi and /usr/lib/jenkins/jakarta-mail-api.hpi
+/opt/openshift/plugins/jakarta-mail-api.jpi cksum 3781501984 and /usr/lib/jenkins/jakarta-mail-api.hpi cksum 3781501984
+Removing /opt/openshift/plugins/jakarta-mail-api.jpi
+Looking at /opt/openshift/plugins/javadoc.jpi and /usr/lib/jenkins/javadoc.hpi
+/opt/openshift/plugins/javadoc.jpi cksum 3647955404 and /usr/lib/jenkins/javadoc.hpi cksum 3647955404
+Removing /opt/openshift/plugins/javadoc.jpi
+Looking at /opt/openshift/plugins/javax-activation-api.jpi and /usr/lib/jenkins/javax-activation-api.hpi
+/opt/openshift/plugins/javax-activation-api.jpi cksum 19203470 and /usr/lib/jenkins/javax-activation-api.hpi cksum 19203470
+Removing /opt/openshift/plugins/javax-activation-api.jpi
+Looking at /opt/openshift/plugins/javax-mail-api.jpi and /usr/lib/jenkins/javax-mail-api.hpi
+/opt/openshift/plugins/javax-mail-api.jpi cksum 139464874 and /usr/lib/jenkins/javax-mail-api.hpi cksum 139464874
+Removing /opt/openshift/plugins/javax-mail-api.jpi
+Looking at /opt/openshift/plugins/jaxb.jpi and /usr/lib/jenkins/jaxb.hpi
+/opt/openshift/plugins/jaxb.jpi cksum 3729617233 and /usr/lib/jenkins/jaxb.hpi cksum 3729617233
+Removing /opt/openshift/plugins/jaxb.jpi
+Looking at /opt/openshift/plugins/jdk-tool.jpi and /usr/lib/jenkins/jdk-tool.hpi
+/opt/openshift/plugins/jdk-tool.jpi cksum 1029442421 and /usr/lib/jenkins/jdk-tool.hpi cksum 1029442421
+Removing /opt/openshift/plugins/jdk-tool.jpi
+Looking at /opt/openshift/plugins/jenkins-design-language.jpi and /usr/lib/jenkins/jenkins-design-language.hpi
+/opt/openshift/plugins/jenkins-design-language.jpi cksum 1110065755 and /usr/lib/jenkins/jenkins-design-language.hpi cksum 1110065755
+Removing /opt/openshift/plugins/jenkins-design-language.jpi
+Looking at /opt/openshift/plugins/jersey2-api.jpi and /usr/lib/jenkins/jersey2-api.hpi
+/opt/openshift/plugins/jersey2-api.jpi cksum 652482958 and /usr/lib/jenkins/jersey2-api.hpi cksum 652482958
+Removing /opt/openshift/plugins/jersey2-api.jpi
+Looking at /opt/openshift/plugins/jira.jpi and /usr/lib/jenkins/jira.hpi
+/opt/openshift/plugins/jira.jpi cksum 375583785 and /usr/lib/jenkins/jira.hpi cksum 375583785
+Removing /opt/openshift/plugins/jira.jpi
+Looking at /opt/openshift/plugins/jjwt-api.jpi and /usr/lib/jenkins/jjwt-api.hpi
+/opt/openshift/plugins/jjwt-api.jpi cksum 2601744286 and /usr/lib/jenkins/jjwt-api.hpi cksum 2601744286
+Removing /opt/openshift/plugins/jjwt-api.jpi
+Looking at /opt/openshift/plugins/job-dsl.jpi and /usr/lib/jenkins/job-dsl.hpi
+/opt/openshift/plugins/job-dsl.jpi cksum 2683228644 and /usr/lib/jenkins/job-dsl.hpi cksum 2683228644
+Removing /opt/openshift/plugins/job-dsl.jpi
+Looking at /opt/openshift/plugins/jquery3-api.jpi and /usr/lib/jenkins/jquery3-api.hpi
+/opt/openshift/plugins/jquery3-api.jpi cksum 4047530964 and /usr/lib/jenkins/jquery3-api.hpi cksum 4047530964
+Removing /opt/openshift/plugins/jquery3-api.jpi
+Looking at /opt/openshift/plugins/jsch.jpi and /usr/lib/jenkins/jsch.hpi
+/opt/openshift/plugins/jsch.jpi cksum 139724529 and /usr/lib/jenkins/jsch.hpi cksum 139724529
+Removing /opt/openshift/plugins/jsch.jpi
+Looking at /opt/openshift/plugins/junit.jpi and /usr/lib/jenkins/junit.hpi
+/opt/openshift/plugins/junit.jpi cksum 1784659140 and /usr/lib/jenkins/junit.hpi cksum 1784659140
+Removing /opt/openshift/plugins/junit.jpi
+Looking at /opt/openshift/plugins/kubernetes-client-api.jpi and /usr/lib/jenkins/kubernetes-client-api.hpi
+/opt/openshift/plugins/kubernetes-client-api.jpi cksum 3215910844 and /usr/lib/jenkins/kubernetes-client-api.hpi cksum 3215910844
+Removing /opt/openshift/plugins/kubernetes-client-api.jpi
+Looking at /opt/openshift/plugins/kubernetes-credentials.jpi and /usr/lib/jenkins/kubernetes-credentials.hpi
+/opt/openshift/plugins/kubernetes-credentials.jpi cksum 3675194085 and /usr/lib/jenkins/kubernetes-credentials.hpi cksum 3675194085
+Removing /opt/openshift/plugins/kubernetes-credentials.jpi
+Looking at /opt/openshift/plugins/kubernetes.jpi and /usr/lib/jenkins/kubernetes.hpi
+/opt/openshift/plugins/kubernetes.jpi cksum 2940959582 and /usr/lib/jenkins/kubernetes.hpi cksum 2940959582
+Removing /opt/openshift/plugins/kubernetes.jpi
+Looking at /opt/openshift/plugins/lockable-resources.jpi and /usr/lib/jenkins/lockable-resources.hpi
+/opt/openshift/plugins/lockable-resources.jpi cksum 1173214164 and /usr/lib/jenkins/lockable-resources.hpi cksum 1173214164
+Removing /opt/openshift/plugins/lockable-resources.jpi
+Looking at /opt/openshift/plugins/mailer.jpi and /usr/lib/jenkins/mailer.hpi
+/opt/openshift/plugins/mailer.jpi cksum 2322692165 and /usr/lib/jenkins/mailer.hpi cksum 2322692165
+Removing /opt/openshift/plugins/mailer.jpi
+Looking at /opt/openshift/plugins/mapdb-api.jpi and /usr/lib/jenkins/mapdb-api.hpi
+/opt/openshift/plugins/mapdb-api.jpi cksum 2755257452 and /usr/lib/jenkins/mapdb-api.hpi cksum 2755257452
+Removing /opt/openshift/plugins/mapdb-api.jpi
+Looking at /opt/openshift/plugins/matrix-auth.jpi and /usr/lib/jenkins/matrix-auth.hpi
+/opt/openshift/plugins/matrix-auth.jpi cksum 4181473612 and /usr/lib/jenkins/matrix-auth.hpi cksum 4181473612
+Removing /opt/openshift/plugins/matrix-auth.jpi
+Looking at /opt/openshift/plugins/matrix-project.jpi and /usr/lib/jenkins/matrix-project.hpi
+/opt/openshift/plugins/matrix-project.jpi cksum 4204724884 and /usr/lib/jenkins/matrix-project.hpi cksum 4204724884
+Removing /opt/openshift/plugins/matrix-project.jpi
+Looking at /opt/openshift/plugins/maven-plugin.jpi and /usr/lib/jenkins/maven-plugin.hpi
+/opt/openshift/plugins/maven-plugin.jpi cksum 3573187112 and /usr/lib/jenkins/maven-plugin.hpi cksum 3573187112
+Removing /opt/openshift/plugins/maven-plugin.jpi
+Looking at /opt/openshift/plugins/mercurial.jpi and /usr/lib/jenkins/mercurial.hpi
+/opt/openshift/plugins/mercurial.jpi cksum 795731841 and /usr/lib/jenkins/mercurial.hpi cksum 795731841
+Removing /opt/openshift/plugins/mercurial.jpi
+Looking at /opt/openshift/plugins/metrics.jpi and /usr/lib/jenkins/metrics.hpi
+/opt/openshift/plugins/metrics.jpi cksum 2837570507 and /usr/lib/jenkins/metrics.hpi cksum 2837570507
+Removing /opt/openshift/plugins/metrics.jpi
+Looking at /opt/openshift/plugins/mina-sshd-api-common.jpi and /usr/lib/jenkins/mina-sshd-api-common.hpi
+/opt/openshift/plugins/mina-sshd-api-common.jpi cksum 3910690828 and /usr/lib/jenkins/mina-sshd-api-common.hpi cksum 3910690828
+Removing /opt/openshift/plugins/mina-sshd-api-common.jpi
+Looking at /opt/openshift/plugins/mina-sshd-api-core.jpi and /usr/lib/jenkins/mina-sshd-api-core.hpi
+/opt/openshift/plugins/mina-sshd-api-core.jpi cksum 1317945056 and /usr/lib/jenkins/mina-sshd-api-core.hpi cksum 1317945056
+Removing /opt/openshift/plugins/mina-sshd-api-core.jpi
+Looking at /opt/openshift/plugins/momentjs.jpi and /usr/lib/jenkins/momentjs.hpi
+/opt/openshift/plugins/momentjs.jpi cksum 1634861909 and /usr/lib/jenkins/momentjs.hpi cksum 1634861909
+Removing /opt/openshift/plugins/momentjs.jpi
+Looking at /opt/openshift/plugins/oauth-credentials.jpi and /usr/lib/jenkins/oauth-credentials.hpi
+/opt/openshift/plugins/oauth-credentials.jpi cksum 1075151865 and /usr/lib/jenkins/oauth-credentials.hpi cksum 1075151865
+Removing /opt/openshift/plugins/oauth-credentials.jpi
+Looking at /opt/openshift/plugins/okhttp-api.jpi and /usr/lib/jenkins/okhttp-api.hpi
+/opt/openshift/plugins/okhttp-api.jpi cksum 3276599260 and /usr/lib/jenkins/okhttp-api.hpi cksum 3276599260
+Removing /opt/openshift/plugins/okhttp-api.jpi
+Looking at /opt/openshift/plugins/openshift-client.jpi and /usr/lib/jenkins/openshift-client.hpi
+/opt/openshift/plugins/openshift-client.jpi cksum 2596844131 and /usr/lib/jenkins/openshift-client.hpi cksum 2596844131
+Removing /opt/openshift/plugins/openshift-client.jpi
+Looking at /opt/openshift/plugins/openshift-login.jpi and /usr/lib/jenkins/openshift-login.hpi
+/opt/openshift/plugins/openshift-login.jpi cksum 4006179018 and /usr/lib/jenkins/openshift-login.hpi cksum 4006179018
+Removing /opt/openshift/plugins/openshift-login.jpi
+Looking at /opt/openshift/plugins/openshift-sync.jpi and /usr/lib/jenkins/openshift-sync.hpi
+/opt/openshift/plugins/openshift-sync.jpi cksum 1819855241 and /usr/lib/jenkins/openshift-sync.hpi cksum 1819855241
+Removing /opt/openshift/plugins/openshift-sync.jpi
+Looking at /opt/openshift/plugins/pam-auth.jpi and /usr/lib/jenkins/pam-auth.hpi
+/opt/openshift/plugins/pam-auth.jpi cksum 369106803 and /usr/lib/jenkins/pam-auth.hpi cksum 369106803
+Removing /opt/openshift/plugins/pam-auth.jpi
+Looking at /opt/openshift/plugins/parameterized-trigger.jpi and /usr/lib/jenkins/parameterized-trigger.hpi
+/opt/openshift/plugins/parameterized-trigger.jpi cksum 3399784708 and /usr/lib/jenkins/parameterized-trigger.hpi cksum 3399784708
+Removing /opt/openshift/plugins/parameterized-trigger.jpi
+Looking at /opt/openshift/plugins/pipeline-build-step.jpi and /usr/lib/jenkins/pipeline-build-step.hpi
+/opt/openshift/plugins/pipeline-build-step.jpi cksum 1539582229 and /usr/lib/jenkins/pipeline-build-step.hpi cksum 1539582229
+Removing /opt/openshift/plugins/pipeline-build-step.jpi
+Looking at /opt/openshift/plugins/pipeline-graph-analysis.jpi and /usr/lib/jenkins/pipeline-graph-analysis.hpi
+/opt/openshift/plugins/pipeline-graph-analysis.jpi cksum 1229474433 and /usr/lib/jenkins/pipeline-graph-analysis.hpi cksum 1229474433
+Removing /opt/openshift/plugins/pipeline-graph-analysis.jpi
+Looking at /opt/openshift/plugins/pipeline-groovy-lib.jpi and /usr/lib/jenkins/pipeline-groovy-lib.hpi
+/opt/openshift/plugins/pipeline-groovy-lib.jpi cksum 2995974073 and /usr/lib/jenkins/pipeline-groovy-lib.hpi cksum 2995974073
+Removing /opt/openshift/plugins/pipeline-groovy-lib.jpi
+Looking at /opt/openshift/plugins/pipeline-input-step.jpi and /usr/lib/jenkins/pipeline-input-step.hpi
+/opt/openshift/plugins/pipeline-input-step.jpi cksum 2419401474 and /usr/lib/jenkins/pipeline-input-step.hpi cksum 2419401474
+Removing /opt/openshift/plugins/pipeline-input-step.jpi
+Looking at /opt/openshift/plugins/pipeline-milestone-step.jpi and /usr/lib/jenkins/pipeline-milestone-step.hpi
+/opt/openshift/plugins/pipeline-milestone-step.jpi cksum 4103277952 and /usr/lib/jenkins/pipeline-milestone-step.hpi cksum 4103277952
+Removing /opt/openshift/plugins/pipeline-milestone-step.jpi
+Looking at /opt/openshift/plugins/pipeline-model-api.jpi and /usr/lib/jenkins/pipeline-model-api.hpi
+/opt/openshift/plugins/pipeline-model-api.jpi cksum 2536275291 and /usr/lib/jenkins/pipeline-model-api.hpi cksum 2536275291
+Removing /opt/openshift/plugins/pipeline-model-api.jpi
+Looking at /opt/openshift/plugins/pipeline-model-definition.jpi and /usr/lib/jenkins/pipeline-model-definition.hpi
+/opt/openshift/plugins/pipeline-model-definition.jpi cksum 1136233063 and /usr/lib/jenkins/pipeline-model-definition.hpi cksum 1136233063
+Removing /opt/openshift/plugins/pipeline-model-definition.jpi
+Looking at /opt/openshift/plugins/pipeline-model-extensions.jpi and /usr/lib/jenkins/pipeline-model-extensions.hpi
+/opt/openshift/plugins/pipeline-model-extensions.jpi cksum 3712248727 and /usr/lib/jenkins/pipeline-model-extensions.hpi cksum 3712248727
+Removing /opt/openshift/plugins/pipeline-model-extensions.jpi
+Looking at /opt/openshift/plugins/pipeline-rest-api.jpi and /usr/lib/jenkins/pipeline-rest-api.hpi
+/opt/openshift/plugins/pipeline-rest-api.jpi cksum 2690735399 and /usr/lib/jenkins/pipeline-rest-api.hpi cksum 2690735399
+Removing /opt/openshift/plugins/pipeline-rest-api.jpi
+Looking at /opt/openshift/plugins/pipeline-stage-step.jpi and /usr/lib/jenkins/pipeline-stage-step.hpi
+/opt/openshift/plugins/pipeline-stage-step.jpi cksum 3000329390 and /usr/lib/jenkins/pipeline-stage-step.hpi cksum 3000329390
+Removing /opt/openshift/plugins/pipeline-stage-step.jpi
+Looking at /opt/openshift/plugins/pipeline-stage-tags-metadata.jpi and /usr/lib/jenkins/pipeline-stage-tags-metadata.hpi
+/opt/openshift/plugins/pipeline-stage-tags-metadata.jpi cksum 3236571189 and /usr/lib/jenkins/pipeline-stage-tags-metadata.hpi cksum 3236571189
+Removing /opt/openshift/plugins/pipeline-stage-tags-metadata.jpi
+Looking at /opt/openshift/plugins/pipeline-stage-view.jpi and /usr/lib/jenkins/pipeline-stage-view.hpi
+/opt/openshift/plugins/pipeline-stage-view.jpi cksum 4153819189 and /usr/lib/jenkins/pipeline-stage-view.hpi cksum 4153819189
+Removing /opt/openshift/plugins/pipeline-stage-view.jpi
+Looking at /opt/openshift/plugins/pipeline-utility-steps.jpi and /usr/lib/jenkins/pipeline-utility-steps.hpi
+/opt/openshift/plugins/pipeline-utility-steps.jpi cksum 3681982449 and /usr/lib/jenkins/pipeline-utility-steps.hpi cksum 3681982449
+Removing /opt/openshift/plugins/pipeline-utility-steps.jpi
+Looking at /opt/openshift/plugins/plain-credentials.jpi and /usr/lib/jenkins/plain-credentials.hpi
+/opt/openshift/plugins/plain-credentials.jpi cksum 2137271851 and /usr/lib/jenkins/plain-credentials.hpi cksum 2137271851
+Removing /opt/openshift/plugins/plain-credentials.jpi
+Looking at /opt/openshift/plugins/plugin-util-api.jpi and /usr/lib/jenkins/plugin-util-api.hpi
+/opt/openshift/plugins/plugin-util-api.jpi cksum 3471077071 and /usr/lib/jenkins/plugin-util-api.hpi cksum 3471077071
+Removing /opt/openshift/plugins/plugin-util-api.jpi
+Looking at /opt/openshift/plugins/prometheus.jpi and /usr/lib/jenkins/prometheus.hpi
+/opt/openshift/plugins/prometheus.jpi cksum 2192924849 and /usr/lib/jenkins/prometheus.hpi cksum 2192924849
+Removing /opt/openshift/plugins/prometheus.jpi
+Looking at /opt/openshift/plugins/pubsub-light.jpi and /usr/lib/jenkins/pubsub-light.hpi
+/opt/openshift/plugins/pubsub-light.jpi cksum 895555269 and /usr/lib/jenkins/pubsub-light.hpi cksum 895555269
+Removing /opt/openshift/plugins/pubsub-light.jpi
+Looking at /opt/openshift/plugins/run-condition.jpi and /usr/lib/jenkins/run-condition.hpi
+/opt/openshift/plugins/run-condition.jpi cksum 3817262426 and /usr/lib/jenkins/run-condition.hpi cksum 3817262426
+Removing /opt/openshift/plugins/run-condition.jpi
+Looking at /opt/openshift/plugins/scm-api.jpi and /usr/lib/jenkins/scm-api.hpi
+/opt/openshift/plugins/scm-api.jpi cksum 503962343 and /usr/lib/jenkins/scm-api.hpi cksum 503962343
+Removing /opt/openshift/plugins/scm-api.jpi
+Looking at /opt/openshift/plugins/script-security.jpi and /usr/lib/jenkins/script-security.hpi
+/opt/openshift/plugins/script-security.jpi cksum 1339981682 and /usr/lib/jenkins/script-security.hpi cksum 1339981682
+Removing /opt/openshift/plugins/script-security.jpi
+Looking at /opt/openshift/plugins/snakeyaml-api.jpi and /usr/lib/jenkins/snakeyaml-api.hpi
+/opt/openshift/plugins/snakeyaml-api.jpi cksum 2764288572 and /usr/lib/jenkins/snakeyaml-api.hpi cksum 2764288572
+Removing /opt/openshift/plugins/snakeyaml-api.jpi
+Looking at /opt/openshift/plugins/sse-gateway.jpi and /usr/lib/jenkins/sse-gateway.hpi
+/opt/openshift/plugins/sse-gateway.jpi cksum 1986472696 and /usr/lib/jenkins/sse-gateway.hpi cksum 1986472696
+Removing /opt/openshift/plugins/sse-gateway.jpi
+Looking at /opt/openshift/plugins/ssh-credentials.jpi and /usr/lib/jenkins/ssh-credentials.hpi
+/opt/openshift/plugins/ssh-credentials.jpi cksum 3620611561 and /usr/lib/jenkins/ssh-credentials.hpi cksum 3620611561
+Removing /opt/openshift/plugins/ssh-credentials.jpi
+Looking at /opt/openshift/plugins/sshd.jpi and /usr/lib/jenkins/sshd.hpi
+/opt/openshift/plugins/sshd.jpi cksum 1357958640 and /usr/lib/jenkins/sshd.hpi cksum 1357958640
+Removing /opt/openshift/plugins/sshd.jpi
+Looking at /opt/openshift/plugins/structs.jpi and /usr/lib/jenkins/structs.hpi
+/opt/openshift/plugins/structs.jpi cksum 472211400 and /usr/lib/jenkins/structs.hpi cksum 472211400
+Removing /opt/openshift/plugins/structs.jpi
+Looking at /opt/openshift/plugins/subversion.jpi and /usr/lib/jenkins/subversion.hpi
+/opt/openshift/plugins/subversion.jpi cksum 2235211944 and /usr/lib/jenkins/subversion.hpi cksum 2235211944
+Removing /opt/openshift/plugins/subversion.jpi
+Looking at /opt/openshift/plugins/token-macro.jpi and /usr/lib/jenkins/token-macro.hpi
+/opt/openshift/plugins/token-macro.jpi cksum 569843235 and /usr/lib/jenkins/token-macro.hpi cksum 569843235
+Removing /opt/openshift/plugins/token-macro.jpi
+Looking at /opt/openshift/plugins/trilead-api.jpi and /usr/lib/jenkins/trilead-api.hpi
+/opt/openshift/plugins/trilead-api.jpi cksum 2450296737 and /usr/lib/jenkins/trilead-api.hpi cksum 2450296737
+Removing /opt/openshift/plugins/trilead-api.jpi
+Looking at /opt/openshift/plugins/variant.jpi and /usr/lib/jenkins/variant.hpi
+/opt/openshift/plugins/variant.jpi cksum 2926900029 and /usr/lib/jenkins/variant.hpi cksum 2926900029
+Removing /opt/openshift/plugins/variant.jpi
+Looking at /opt/openshift/plugins/workflow-api.jpi and /usr/lib/jenkins/workflow-api.hpi
+/opt/openshift/plugins/workflow-api.jpi cksum 3224244537 and /usr/lib/jenkins/workflow-api.hpi cksum 3224244537
+Removing /opt/openshift/plugins/workflow-api.jpi
+Looking at /opt/openshift/plugins/workflow-basic-steps.jpi and /usr/lib/jenkins/workflow-basic-steps.hpi
+/opt/openshift/plugins/workflow-basic-steps.jpi cksum 1609705969 and /usr/lib/jenkins/workflow-basic-steps.hpi cksum 1609705969
+Removing /opt/openshift/plugins/workflow-basic-steps.jpi
+Looking at /opt/openshift/plugins/workflow-cps-global-lib.jpi and /usr/lib/jenkins/workflow-cps-global-lib.hpi
+/opt/openshift/plugins/workflow-cps-global-lib.jpi cksum 27824745 and /usr/lib/jenkins/workflow-cps-global-lib.hpi cksum 27824745
+Removing /opt/openshift/plugins/workflow-cps-global-lib.jpi
+Looking at /opt/openshift/plugins/workflow-cps.jpi and /usr/lib/jenkins/workflow-cps.hpi
+/opt/openshift/plugins/workflow-cps.jpi cksum 3389757261 and /usr/lib/jenkins/workflow-cps.hpi cksum 3389757261
+Removing /opt/openshift/plugins/workflow-cps.jpi
+Looking at /opt/openshift/plugins/workflow-durable-task-step.jpi and /usr/lib/jenkins/workflow-durable-task-step.hpi
+/opt/openshift/plugins/workflow-durable-task-step.jpi cksum 2458099293 and /usr/lib/jenkins/workflow-durable-task-step.hpi cksum 2458099293
+Removing /opt/openshift/plugins/workflow-durable-task-step.jpi
+Looking at /opt/openshift/plugins/workflow-job.jpi and /usr/lib/jenkins/workflow-job.hpi
+/opt/openshift/plugins/workflow-job.jpi cksum 385473733 and /usr/lib/jenkins/workflow-job.hpi cksum 385473733
+Removing /opt/openshift/plugins/workflow-job.jpi
+Looking at /opt/openshift/plugins/workflow-multibranch.jpi and /usr/lib/jenkins/workflow-multibranch.hpi
+/opt/openshift/plugins/workflow-multibranch.jpi cksum 4039682029 and /usr/lib/jenkins/workflow-multibranch.hpi cksum 4039682029
+Removing /opt/openshift/plugins/workflow-multibranch.jpi
+Looking at /opt/openshift/plugins/workflow-scm-step.jpi and /usr/lib/jenkins/workflow-scm-step.hpi
+/opt/openshift/plugins/workflow-scm-step.jpi cksum 3954216927 and /usr/lib/jenkins/workflow-scm-step.hpi cksum 3954216927
+Removing /opt/openshift/plugins/workflow-scm-step.jpi
+Looking at /opt/openshift/plugins/workflow-step-api.jpi and /usr/lib/jenkins/workflow-step-api.hpi
+/opt/openshift/plugins/workflow-step-api.jpi cksum 3264644661 and /usr/lib/jenkins/workflow-step-api.hpi cksum 3264644661
+Removing /opt/openshift/plugins/workflow-step-api.jpi
+Looking at /opt/openshift/plugins/workflow-support.jpi and /usr/lib/jenkins/workflow-support.hpi
+/opt/openshift/plugins/workflow-support.jpi cksum 2139617942 and /usr/lib/jenkins/workflow-support.hpi cksum 2139617942
+Removing /opt/openshift/plugins/workflow-support.jpi
+Generating kubernetes-plugin configuration (/opt/openshift/configuration/config.xml.tpl) ...
+Generating administrative monitor configuration (/opt/openshift/configuration/config.xml.tpl) ...
+Copying Jenkins configuration to /var/lib/jenkins ...
+Creating initial Jenkins 'admin' user ...
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -Dsun.zip.disableMemoryMapping=true
+Updating password hash in admin for user admin
+Password hash susccesfully updated
+Administrative monitors that contact the update center will remain active
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -Dsun.zip.disableMemoryMapping=true
+Migrating slave image configuration to current version tag ...
+Using JENKINS_SERVICE_NAME=jenkins
+Generating jenkins.model.JenkinsLocationConfiguration.xml using (/var/lib/jenkins/jenkins.model.JenkinsLocationConfiguration.xml.tpl) ...
+Jenkins URL set to: https://jenkins-jegan.apps.ocp.tektutor.org.labs/ in file: /var/lib/jenkins/jenkins.model.JenkinsLocationConfiguration.xml
+OpenShift OAuth enabled: true
++ exec java -XX:+UseParallelGC -XX:MinHeapFreeRatio=5 -XX:MaxHeapFreeRatio=10 -XX:GCTimeRatio=4 -XX:AdaptiveSizePolicyWeight=90 -Xmx512m -Dfile.encoding=UTF8 -Djavamelody.displayed-counters=log,error -Djava.util.logging.config.file=/var/lib/jenkins/logging.properties -Djavax.net.ssl.trustStore=/var/lib/jenkins/ca-anchors-keystore -Dcom.redhat.fips=false -Djdk.http.auth.tunneling.disabledSchemes= -Djdk.http.auth.proxying.disabledSchemes= -Duser.home=/var/lib/jenkins -Djavamelody.application-name=jenkins -Dhudson.security.csrf.GlobalCrumbIssuerConfiguration.DISABLE_CSRF_PROTECTION=true -Djenkins.install.runSetupWizard=false -jar /usr/lib/jenkins/jenkins.war
+Picked up JAVA_TOOL_OPTIONS: -XX:+UnlockExperimentalVMOptions -Dsun.zip.disableMemoryMapping=true
+Running from: /usr/lib/jenkins/jenkins.war
+webroot: /var/lib/jenkins/war
+2024-03-22 08:33:52 INFO    winstone.Logger logInternal Beginning extraction from war file
+2024-03-22 08:33:53 WARNING org.eclipse.jetty.server.handler.ContextHandler setContextPath Empty contextPath
+2024-03-22 08:33:53 INFO    org.eclipse.jetty.server.Server doStart jetty-10.0.13; built: 2022-12-07T20:13:20.134Z; git: 1c2636ea05c0ca8de1ffd6ca7f3a98ac084c766d; jvm 11.0.19+7-LTS
+2024-03-22 08:33:54 INFO    org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2024-03-22 08:33:54 INFO    org.eclipse.jetty.server.session.DefaultSessionIdManager doStart Session workerName=node0
+2024-03-22 08:33:54 INFO    hudson.WebAppMain contextInitialized Jenkins home directory: /var/lib/jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+2024-03-22 08:33:55 INFO    org.eclipse.jetty.server.handler.ContextHandler doStart Started w.@7318daf8{Jenkins v2.401.1,/,file:///var/lib/jenkins/war/,AVAILABLE}{/var/lib/jenkins/war}
+2024-03-22 08:33:55 INFO    org.eclipse.jetty.server.AbstractConnector doStart Started ServerConnector@5ddcc487{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2024-03-22 08:33:55 INFO    org.eclipse.jetty.server.Server doStart Started Server@6af9fcb2{STARTING}[10.0.13,sto=0] @3147ms
+2024-03-22 08:33:55 INFO    winstone.Logger logInternal Winstone Servlet Engine running: controlPort=disabled
+2024-03-22 08:33:55 INFO    jenkins.InitReactorRunner$1 onAttained Started initialization
+2024-03-22 08:33:55 INFO    hudson.PluginManager loadDetachedPlugins Upgrading Jenkins. The last running version was 2.89.2. This Jenkins is version 2.401.1.
+2024-03-22 08:33:55 INFO    hudson.PluginManager loadDetachedPlugins Upgraded Jenkins from version 2.89.2 to version 2.401.1. Loaded detached plugins (and dependencies): []
+2024-03-22 08:33:58 INFO    jenkins.InitReactorRunner$1 onAttained Listed all plugins
+2024-03-22 08:34:06 INFO    jenkins.InitReactorRunner$1 onAttained Prepared all plugins
+2024-03-22 08:34:06 INFO    jenkins.InitReactorRunner$1 onAttained Started all plugins
+2024-03-22 08:34:06 INFO    jenkins.InitReactorRunner$1 onAttained Augmented all extensions
+2024-03-22 08:34:06 INFO    hudson.model.UserIdMigrator migrateUsers Migrating user 'admin' from 'users/admin/' to 'users/admin_10760543475843539293/'
+2024-03-22 08:34:06 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Computer.Configure:admin
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/var/lib/jenkins/war/WEB-INF/lib/groovy-all-2.4.21.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2024-03-22 08:34:08 INFO    io.fabric8.jenkins.openshiftsync.GlobalPluginConfiguration configChange OpenShift Sync Plugin processing a newly supplied configuration
+2024-03-22 08:34:08 INFO    io.fabric8.jenkins.openshiftsync.OpenShiftUtils shutdownOpenShiftClient Stopping openshift client: null
+2024-03-22 08:34:08 INFO    io.fabric8.jenkins.openshiftsync.OpenShiftUtils initializeOpenShiftClient Current OpenShift Client Configuration: io.fabric8.openshift.client.OpenShiftConfig@2ee2e4ec[oapiVersion=<null>,openShiftUrl=<null>,buildTimeout=0,disableApiGroupCheck=false,trustCerts=true,disableHostnameVerification=false,masterUrl=https://kubernetes.default:443/,apiVersion=v1,namespace=jegan,defaultNamespace=true,caCertFile=/var/run/secrets/kubernetes.io/serviceaccount/ca.crt,caCertData=<null>,clientCertFile=<null>,clientCertData=<null>,clientKeyFile=<null>,clientKeyData=<null>,clientKeyAlgo=<null>,clientKeyPassphrase=changeit,trustStoreFile=<null>,trustStorePassphrase=<null>,keyStoreFile=<null>,keyStorePassphrase=<null>,authProvider=<null>,requestConfig=io.fabric8.kubernetes.client.RequestConfig@422000fd,contexts=[],currentContext=<null>,username=<null>,password=<null>,oauthToken=<null>,watchReconnectInterval=1000,watchReconnectLimit=-1,connectionTimeout=10000,uploadConnectionTimeout=10000,uploadRequestTimeout=120000,requestRetryBackoffLimit=0,requestRetryBackoffInterval=0,requestTimeout=10000,rollingTimeout=900000,scaleTimeout=600000,loggingInterval=20000,websocketTimeout=5000,websocketPingInterval=30000,maxConcurrentRequests=64,maxConcurrentRequestsPerHost=5,impersonateUsername=<null>,oauthTokenProvider=<null>,impersonateGroup=<null>,impersonateGroups=<null>,impersonateExtras=<null>,http2Disable=false,httpProxy=<null>,httpsProxy=<null>,proxyUsername=<null>,proxyPassword=<null>,noProxy={},userAgent=fabric8-kubernetes-client/6.4.1,tlsVersions={TLS_1_2},errorMessages={401=Unauthorized! Configured service account doesn't have access. Service account may have been revoked., 403=Forbidden!Configured service account doesn't have access. Service account may have been revoked.},customHeaders=<null>,autoConfigure=false,file=<null>,additionalProperties={buildTimeout=300000, openShiftUrl=https://kubernetes.default:443/oapi/v1/, oapiVersion=v1, disableApiGroupCheck=false}]
+2024-03-22 08:34:08 INFO    io.fabric8.jenkins.openshiftsync.OpenShiftUtils initializeOpenShiftClient New OpenShift client initialized: io.fabric8.openshift.client.DefaultOpenShiftClient@7dd6cc8c
+2024-03-22 08:34:08 WARNING org.jenkinsci.plugins.prometheus.config.PrometheusConfiguration lambda$parseLongFromEnv$1 COLLECTING_METRICS_PERIOD_IN_SECONDS must be a positive integer. The default value: '120' will be used instead of provided.
+2024-03-22 08:34:08 WARNING org.jenkinsci.plugins.prometheus.config.PrometheusConfiguration setCollectDiskUsageBasedOnEnvironmentVariableIfDefined Unable to parse environment variable 'COLLECT_DISK_USAGE'. Must either be 'true' or 'false'. Ignoring...
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.prometheus.DiskUsageCollector collect Cannot collect disk usage data because plugin CloudBees Disk Usage Simple is not installed: java.lang.NoClassDefFoundError: com/cloudbees/simplediskusage/QuickDiskUsagePlugin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Computer.Delete:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Hudson.Administer:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Hudson.Read:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Item.Build:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Item.Configure:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Item.Create:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Item.Delete:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Item.Read:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Item.Workspace:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Run.Delete:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.Run.Update:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.View.Configure:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.View.Create:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.model.View.Delete:admin
+2024-03-22 08:34:09 WARNING org.jenkinsci.plugins.matrixauth.AuthorizationContainer add Processing a permission assignment in the legacy format (without explicit TYPE prefix): hudson.scm.SCM.Tag:admin
+2024-03-22 08:34:09 INFO    io.fabric8.jenkins.openshiftsync.GlobalPluginConfigurationTimerTask doRun Confirming Jenkins is started
+2024-03-22 08:34:09 INFO    io.fabric8.jenkins.openshiftsync.GlobalPluginConfigurationTimerTask waitForJenkinsStartup Jenkins not ready...
+2024-03-22 08:34:10 INFO    jenkins.InitReactorRunner$1 onAttained System config loaded
+2024-03-22 08:34:10 WARNING io.jenkins.plugins.casc.yaml.YamlUtils loadFrom configuration-as-code yaml source returned an empty document.
+2024-03-22 08:34:10 INFO    jenkins.InitReactorRunner$1 onAttained System config adapted
+2024-03-22 08:34:10 INFO    jenkins.InitReactorRunner$1 onAttained Loaded all jobs
+2024-03-22 08:34:10 INFO    jenkins.InitReactorRunner$1 onAttained Configuration for all jobs updated
+2024-03-22 08:34:10 INFO    jenkins.util.groovy.GroovyHookScript execute Executing /var/lib/jenkins/init.groovy.d/update-center-init.groovy
+2024-03-22 08:34:10 INFO    hudson.util.Retrier start Attempt #1 to do the action check updates server
+2024-03-22 08:34:10 INFO    io.fabric8.jenkins.openshiftsync.GlobalPluginConfigurationTimerTask waitForJenkinsStartup Jenkins not ready...
+2024-03-22 08:34:10 INFO    hudson.model.AllView migrateLegacyPrimaryAllViewLocalizedName JENKINS-38606 detected for AllView in hudson.model.Hudson@4ecc1166; renaming view from All to all
+2024-03-22 08:34:10 INFO    jenkins.InitReactorRunner$1 onAttained Completed initialization
+2024-03-22 08:34:10 INFO    hudson.util.Retrier start Attempt #1 to do the action check updates server
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth OpenShift OAuth: enable oauth set to true force true lastCheck Thu Jan 01 00:00:00 UTC 1970
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth OpenShift OAuth: configured security realm on startup: hudson.security.HudsonPrivateSecurityRealm@5707c303 last check Thu Jan 01 00:00:00 UTC 1970
+2024-03-22 08:34:10 INFO    io.fabric8.jenkins.openshiftsync.GlobalPluginConfigurationTimerTask stop Stopping all informers ...
+2024-03-22 08:34:10 INFO    io.fabric8.jenkins.openshiftsync.GlobalPluginConfigurationTimerTask stop Stopped all informers
+2024-03-22 08:34:10 INFO    io.fabric8.jenkins.openshiftsync.BuildConfigInformer start Starting BuildConfig informer for jegan!!
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getOpenShiftOAuthProvider Trying to determine OpenShift Provider information from URL: https://kubernetes.default:443/.well-known/oauth-authorization-server
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getOpenShiftOAuthProvider OpenShift Provider information parsed as: OpenShiftProviderInfo: issuer: https://oauth-openshift.apps.ocp.tektutor.org.labs auth ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/authorize token ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/token
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://oauth-openshift.apps.ocp.tektutor.org.labs auth ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/authorize token ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/token
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint OpenShift OAuth will query  https://kubernetes.default:443/version with credentials com.google.api.client.auth.oauth2.Credential@790a6b46
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Server succesfully queried to get OpenShift version, now parsing it...
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Now checking if we are on an OpenShift3 cluster and the answer is:  false
+2024-03-22 08:34:10 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.BuildConfigManager reconcileJobsAndBuildConfigs Reconciling jobs and build configs
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.BuildConfigManager reconcileJobsAndBuildConfigs Reconciling jobs and build configs
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.BuildConfigInformer start BuildConfig informer started for namespace: jegan
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.BuildInformer start Starting Build informer for jegan!!
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.BuildManager reconcileRunsAndBuilds Reconciling job runs and builds
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.BuildManager reconcileRunsAndBuilds Reconciling job runs and builds
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.BuildInformer start Build informer started for namespace: jegan
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.ConfigMapInformer start Starting ConfigMap informer for namespace: jegan!!
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults OpenShift OAuth running in k8s/openshift: [true] with namespace [jegan], ServiceAccount directory: [null],
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default ServiceAccount directory: [/run/secrets/kubernetes.io/serviceaccount], serviceAccountName: [null],
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default serviceAccountName: [jenkins], clientId: [null], default clientID: [system:serviceaccount:jegan:jenkins], clientSecret: [null],
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default clientSecret: [eyJhb.......], redirectUrl: [null], default redirectUrl: [https://oauth-openshift.apps.ocp.tektutor.org.labs], serverPrefix: [null],
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default serverPrefix: [https://kubernetes.default:443]
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getOpenShiftOAuthProvider Trying to determine OpenShift Provider information from URL: https://kubernetes.default:443/.well-known/oauth-authorization-server
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getOpenShiftOAuthProvider OpenShift Provider information parsed as: OpenShiftProviderInfo: issuer: https://oauth-openshift.apps.ocp.tektutor.org.labs auth ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/authorize token ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/token
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://oauth-openshift.apps.ocp.tektutor.org.labs auth ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/authorize token ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/token
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint OpenShift OAuth will query  https://kubernetes.default:443/version with credentials com.google.api.client.auth.oauth2.Credential@19180aad
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Server succesfully queried to get OpenShift version, now parsing it...
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Now checking if we are on an OpenShift3 cluster and the answer is:  false
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults OpenShift OAuth running in k8s/openshift: [true] with namespace [jegan], ServiceAccount directory: [null],
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default ServiceAccount directory: [/run/secrets/kubernetes.io/serviceaccount], serviceAccountName: [null],
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default serviceAccountName: [jenkins], clientId: [null], default clientID: [system:serviceaccount:jegan:jenkins], clientSecret: [null],
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default clientSecret: [eyJhb.......], redirectUrl: [null], default redirectUrl: [https://oauth-openshift.apps.ocp.tektutor.org.labs], serverPrefix: [null],
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default serverPrefix: [https://kubernetes.default:443]
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth OpenShift OAuth: running in OpenShift pod with required OAuth features: true
+2024-03-22 08:34:11 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftSetOAuth setOauth OpenShift OAuth: Jenkins security realm set to OpenShift OAuth
+2024-03-22 08:34:11 INFO    hudson.lifecycle.Lifecycle onReady Jenkins is fully up and running
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.ConfigMapInformer start ConfigMap informer started for namespace: jegan
+2024-03-22 08:34:11 INFO    io.fabric8.jenkins.openshiftsync.ImageStreamInformer start Starting ImageStream informer jegan!!
+2024-03-22 08:34:12 INFO    io.fabric8.jenkins.openshiftsync.ImageStreamInformer start ImageStream informer started for namespace: jegan
+2024-03-22 08:34:12 INFO    io.fabric8.jenkins.openshiftsync.SecretInformer start Starting Secret informer jegan!!
+2024-03-22 08:34:12 INFO    io.fabric8.jenkins.openshiftsync.SecretInformer start Secret informer started for namespace: jegan
+2024-03-22 08:34:12 INFO    io.fabric8.jenkins.openshiftsync.GlobalPluginConfigurationTimerTask start All the namespaced informers have been registered!! ... starting all registered informers
+2024-03-22 08:34:12 INFO    io.fabric8.jenkins.openshiftsync.GlobalPluginConfigurationTimerTask start All registered informers have been started
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm doCommenceLogin doCommenceLogin: Coming from: https://jenkins-jegan.apps.ocp.tektutor.org.labs/
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getOpenShiftOAuthProvider Trying to determine OpenShift Provider information from URL: https://kubernetes.default:443/.well-known/oauth-authorization-server
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getOpenShiftOAuthProvider OpenShift Provider information parsed as: OpenShiftProviderInfo: issuer: https://oauth-openshift.apps.ocp.tektutor.org.labs auth ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/authorize token ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/token
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://oauth-openshift.apps.ocp.tektutor.org.labs auth ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/authorize token ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/token
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint OpenShift OAuth will query  https://kubernetes.default:443/version with credentials com.google.api.client.auth.oauth2.Credential@51d785f8
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Server succesfully queried to get OpenShift version, now parsing it...
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Now checking if we are on an OpenShift3 cluster and the answer is:  false
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults OpenShift OAuth running in k8s/openshift: [true] with namespace [jegan], ServiceAccount directory: [null],
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default ServiceAccount directory: [/run/secrets/kubernetes.io/serviceaccount], serviceAccountName: [null],
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default serviceAccountName: [jenkins], clientId: [null], default clientID: [system:serviceaccount:jegan:jenkins], clientSecret: [null],
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default clientSecret: [eyJhb.......], redirectUrl: [null], default redirectUrl: [https://oauth-openshift.apps.ocp.tektutor.org.labs], serverPrefix: [null],
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default serverPrefix: [https://kubernetes.default:443]
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm doCommenceLogin doCommenceLogin: redirectOnFinish:https://jenkins-jegan.apps.ocp.tektutor.org.labs/
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm doCommenceLogin doCommenceLogin: refererURL:https://jenkins-jegan.apps.ocp.tektutor.org.labs/
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm doCommenceLogin doCommenceLogin: fromURL:null
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm doCommenceLogin doCommenceLogin: Coming from: https://jenkins-jegan.apps.ocp.tektutor.org.labs/
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint OpenShift OAuth will query  https://kubernetes.default:443/version with credentials com.google.api.client.auth.oauth2.Credential@4a4878fb
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Server succesfully queried to get OpenShift version, now parsing it...
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Now checking if we are on an OpenShift3 cluster and the answer is:  false
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm newOAuthSession OpenShift OAuth using OAuth Provider specified endpoints for this login flow
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm newOAuthSession Performing OpenShift AuthorizationCodeFlow using: tokenServerURL=[https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/token]
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm newOAuthSession AuthorizationCodeFlow using : queryParameters=[com.google.api.client.auth.oauth2.BearerToken$QueryParameterAccessMethod@66e151fe], transport=[com.google.api.client.http.javanet.NetHttpTransport@4215b6c5], 
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm newOAuthSession AuthorizationCodeFlow using : clientAuthentication=[com.google.api.client.auth.oauth2.ClientParametersAuthentication@335d3a4], clientId=[system:serviceaccount:jegan:jenkins], 
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm newOAuthSession AuthorizationCodeFlow using : authorizationServerURL=[https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/authorize], 
+2024-03-22 08:35:06 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm newOAuthSession The created BearerTokenOAuthSession  is  [org.openshift.jenkins.plugins.openshiftlogin.BearerTokenOAuthSession@35b21e3f]
+2024-03-22 08:35:15 WARNING org.jenkinsci.plugins.prometheus.DiskUsageCollector collect Cannot collect disk usage data because plugin CloudBees Disk Usage Simple is not installed: java.lang.NoClassDefFoundError: com/cloudbees/simplediskusage/QuickDiskUsagePlugin
+2024-03-22 08:35:22 INFO    hudson.model.DownloadService$Downloadable load Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2024-03-22 08:35:22 INFO    hudson.model.DownloadService$Downloadable load Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2024-03-22 08:35:23 INFO    hudson.model.DownloadService$Downloadable load Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+2024-03-22 08:35:23 INFO    hudson.model.DownloadService$Downloadable load Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+2024-03-22 08:35:24 INFO    hudson.model.DownloadService$Downloadable load Obtained the updated data file for hudson.plugins.groovy.GroovyInstaller
+2024-03-22 08:35:24 INFO    hudson.model.DownloadService$Downloadable load Obtained the updated data file for hudson.plugins.groovy.GroovyInstaller
+2024-03-22 08:35:24 INFO    org.openshift.jenkins.plugins.openshiftlogin.BearerTokenOAuthSession onSuccess 
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getOpenShiftOAuthProvider Trying to determine OpenShift Provider information from URL: https://kubernetes.default:443/.well-known/oauth-authorization-server
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getOpenShiftOAuthProvider OpenShift Provider information parsed as: OpenShiftProviderInfo: issuer: https://oauth-openshift.apps.ocp.tektutor.org.labs auth ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/authorize token ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/token
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults OpenShift OAuth: provider: OpenShiftProviderInfo: issuer: https://oauth-openshift.apps.ocp.tektutor.org.labs auth ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/authorize token ep: https://oauth-openshift.apps.ocp.tektutor.org.labs/oauth/token
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint OpenShift OAuth will query  https://kubernetes.default:443/version with credentials com.google.api.client.auth.oauth2.Credential@62422f3b
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Server succesfully queried to get OpenShift version, now parsing it...
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm useProviderOAuthEndpoint Now checking if we are on an OpenShift3 cluster and the answer is:  false
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftVersionInfo isOpenShift4Cluster OpenShift OAuth server is 4.x, specifically OpenShiftVersionInfo: major: 1 minor: 27 gitVersion: v1.27.6+f67aeb3
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults OpenShift OAuth running in k8s/openshift: [true] with namespace [jegan], ServiceAccount directory: [null],
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default ServiceAccount directory: [/run/secrets/kubernetes.io/serviceaccount], serviceAccountName: [null],
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default serviceAccountName: [jenkins], clientId: [null], default clientID: [system:serviceaccount:jegan:jenkins], clientSecret: [null],
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default clientSecret: [eyJhb.......], redirectUrl: [null], default redirectUrl: [https://oauth-openshift.apps.ocp.tektutor.org.labs], serverPrefix: [null],
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm populateDefaults      default serverPrefix: [https://kubernetes.default:443]
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm getRoleToPermissionMap OpenShift Jenkins Login Plugin could not find the openshift-jenkins-login-plugin-config config map in namespace jegan so the default permission mapping will be used
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#getGrantedPermissions called by org.jenkinsci.plugins.matrixauth.AuthorizationContainer
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm updateAuthorizationStrategy OpenShift OAuth: adding permissions for user kube:admin, stored in the matrix as kube:admin-admin-edit-view, based on OpenShift roles [admin, edit, view]
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:25 INFO    org.jenkinsci.plugins.matrixauth.DeprecationUtil logDeprecationMessage Deprecated method org.jenkinsci.plugins.matrixauth.AuthorizationContainer#add called by org.openshift.jenkins.plugins.openshiftlogin.OpenShiftOAuth2SecurityRealm
+2024-03-22 08:35:26 INFO    hudson.model.DownloadService$Downloadable load Obtained the updated data file for hudson.tools.JDKInstaller
+2024-03-22 08:35:26 INFO    hudson.util.Retrier start Performed the action check updates server successfully at the attempt #1
+2024-03-22 08:35:26 INFO    hudson.model.DownloadService$Downloadable load Obtained the updated data file for hudson.tools.JDKInstaller
+2024-03-22 08:35:26 INFO    hudson.util.Retrier start Performed the action check updates server successfully at the attempt #1
+2024-03-22 08:37:15 WARNING org.jenkinsci.plugins.prometheus.DiskUsageCollector collect Cannot collect disk usage data because plugin CloudBees Disk Usage Simple is not installed: java.lang.NoClassDefFoundError: com/cloudbees/simplediskusage/QuickDiskUsagePlugin
+2024-03-22 08:39:15 WARNING org.jenkinsci.plugins.prometheus.DiskUsageCollector collect Cannot collect disk usage data because plugin CloudBees Disk Usage Simple is not installed: java.lang.NoClassDefFoundError: com/cloudbees/simplediskusage/QuickDiskUsagePlugin
+2024-03-22 08:41:15 WARNING org.jenkinsci.plugins.prometheus.DiskUsageCollector collect Cannot collect disk usage data because plugin CloudBees Disk Usage Simple is not installed: java.lang.NoClassDefFoundError: com/cloudbees/simplediskusage/QuickDiskUsagePlugin
