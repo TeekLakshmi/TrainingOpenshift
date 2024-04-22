@@ -1,0 +1,69 @@
+﻿kind: BuildConfig
+apiVersion: build.openshift.io/v1
+metadata:
+  name: hello
+  namespace: lakshmi
+  uid: f9ffb313-b8c5-4fa4-a8cd-700e070f19f8
+  resourceVersion: '4622828'
+  generation: 4
+  creationTimestamp: '2024-04-22T10:36:37Z'
+  labels:
+    name: hello
+  managedFields:
+    - manager: openshift-apiserver
+      operation: Update
+      apiVersion: build.openshift.io/v1
+      time: '2024-04-22T10:43:55Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:status':
+          'f:lastVersion': {}
+    - manager: Mozilla
+      operation: Update
+      apiVersion: build.openshift.io/v1
+      time: '2024-04-22T11:08:55Z'
+      fieldsType: FieldsV1
+      fieldsV1:
+        'f:metadata':
+          'f:labels':
+            .: {}
+            'f:name': {}
+        'f:spec':
+          'f:output':
+            'f:to': {}
+          'f:runPolicy': {}
+          'f:source':
+            'f:contextDir': {}
+            'f:git':
+              .: {}
+              'f:ref': {}
+              'f:uri': {}
+            'f:type': {}
+          'f:strategy':
+            'f:dockerStrategy':
+              .: {}
+              'f:dockerfilePath': {}
+            'f:type': {}
+spec:
+  runPolicy: Serial
+  source:
+    type: Git
+    git:
+      uri: 'https://github.com/TeekLakshmi/TrainingOpenshift.git'
+      ref: main
+    contextDir: Day5/BuildConfig
+  strategy:
+    type: Docker
+    dockerStrategy:
+      dockerfilePath: Dockerfile
+  output:
+    to:
+      kind: DockerImage
+      name: 'teeklakshmi.jfrog.io/teeklakshmi-docker/hello-spring-microservice:2.0'
+  resources: {}
+  postCommit: {}
+  nodeSelector: null
+  successfulBuildsHistoryLimit: 5
+  failedBuildsHistoryLimit: 5
+status:
+  lastVersion: 2
