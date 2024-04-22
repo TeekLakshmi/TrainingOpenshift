@@ -195,6 +195,11 @@ At this point you should be able to check the image pushed into your JFrog Artif
 
 Once the image is successfully pushed, you can check your Jfrog artifactory repository.
 
+## Lab - Using source strategy to build application jar, build custom image and deploy application,service and route
+```
+oc new-app registry.access.redhat.com/ubi8/openjdk-11~https://github.com/tektutor/openshift-april-2024.git --context-dir=Day5/DevfileAndDeployDemo/spring-ms --strategy=source
+```
+
 ## Knative Serverless
 <pre>
 - Knative is an open source community project 
